@@ -1,0 +1,2 @@
+C:\Users\Chad Rush\Documents\Visual Studio 2010\Projects\Rush_A4\WindowsGame4\WindowsGame4Content\obj\x86\Debug\WindowsGame4Content.contentprojResolveAssemblyReference.cache
+E:\Users\Chad Rush\Documents\Visual Studio 2010\Projects\Rush_A4\WindowsGame4\WindowsGame4Content\obj\x86\Debug\WindowsGame4Content.contentprojResolveAssemblyReference.cache
