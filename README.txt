@@ -9,5 +9,6 @@ music titles:
 	Elegy
 	Arpology 2
 
-
 all other assets were created by me.
+
+(also the music will probably be a bit loud.)
