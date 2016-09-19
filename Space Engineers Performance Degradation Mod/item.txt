@@ -1,0 +1,10 @@
+MethodInfo MI = typeof(AssemblerModifier).GetMethod("UpdateCurrentItemStatus");
+            MethodBody MB = MI.GetMethodBody();
+            byte[] MethodBytes = MB.GetILAsByteArray();
+            int methodSize = MethodBytes.Length;
+
+
+            GCHandle hmem = GCHandle.Alloc((object) MethodBytes, GCHandleType.Pinned);
+            IntPtr addr = hmem.AddrOfPinnedObject();
+
+            MethodRental.SwapMethodBody(typeof(MyCraftingComponentBase), MI.MetadataToken, addr, methodSize, MethodRental.JitImmediate);
